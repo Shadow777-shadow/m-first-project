@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Popins;
+}
+
+.container {
+  max-width: 1310px;
+  margin: 0 auto;
+  padding: 25px;
+  list-style: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .logo {
+  height: 20px;
+}
+.navbar .burger {
+  height: 20px;
+}
+
+.idea {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(to right, #FBED96, #ABECD6);
+  border-radius: 22px;
+  border: none;
+  text-align: center;
+  padding: 19px 66px 60px;
+}
+.idea img {
+  justify-content: center;
+  align-items: center;
+}
+.idea p {
+  flex-wrap: wrap;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: -6%;
+  color: black;
+  margin: 12px 0 5px;
+}
+@media screen and (max-width: 230px) {
+  .idea p {
+    font-size: 17px;
+  }
+}
+.idea h1 {
+  flex-wrap: wrap;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 119%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 21px;
+}
+.idea h1 span {
+  color: #40C4FF;
+}
+@media screen and (max-width: 230px) {
+  .idea h1 {
+    font-size: 23px;
+  }
+}
+.idea .btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.idea .btns .btn {
+  width: 100px;
+  height: 35px;
+  border: 1px solid;
+  border-radius: 16px;
+  color: white;
+  background-color: #111827;
+  transition: 0.7s;
+}
+.idea .btns .btn:hover {
+  box-shadow: 10px 10px 20px gray;
+  background-color: #40C4FF;
+  color: white;
+}
+
+h1 {
+  font-size: 47px;
+  font-weight: 600;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.cards .card {
+  max-width: 360px;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+}
+.cards .card h2 {
+  font-size: 24px;
+  font-weight: 400;
+}
+.cards .card .library .butt {
+  padding: 8px 12px;
+  border: 1px solid #40C4FF;
+  border-radius: 14px;
+  background-color: #40C4FF;
+  transition: 0.7s;
+}
+.cards .card .library .butt:hover {
+  box-shadow: 10px 10px 20px gray;
+  border: none green;
+  background-color: green;
+  color: #40C4FF;
+}
+.cards .card .card_img {
+  max-width: 360px;
+  height: auto;
+  padding: 16px 0;
+}
+.cards .card .card_img img {
+  width: 100%;
+  height: auto;
+}
+.teams {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+.teams .team_text h1 {
+  font-size: 32px;
+}
+@media screen and (max-width: 230px) {
+  .teams .team_text h1 {
+    font-size: 24px;
+  }
+}
+.teams .team_text .team_text p {
+  font-family: roboto;
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+.teams .team_text .team_text p .team_img {
+  max-width: 532px;
+  height: auto;
+  padding: 16px 0;
+  transform: translateX(550px, 550deg);
+}
+.teams .team_text .team_text p .team_img img {
+  width: 100%;
+  height: auto;
+}
+.teams .skills {
+  display: flex;
+  padding: 25px;
+  gap: 27px;
+}
+@media screen and (max-width: 217px) {
+  .teams .skills {
+    text-align: center;
+    max-width: 360px;
+    height: auto;
+    padding: 16px 0;
+  }
+  .teams .skills img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.last {
+  flex-wrap: wrap;
+  padding: 25px;
+  color: white;
+  background-color: #111827;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.last p {
+  text-align: center;
+}
+.last .last_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+.last .last_text .h1 {
+  font-weight: 500;
+  font-size: 47px;
+  line-height: 41.9px;
+  padding: 0 0 4px 0;
+}
+@media screen and (max-width: 280px) {
+  .last .last_text .h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 270px) {
+  .last .last_text .h1 {
+    font-size: 35px;
+  }
+}
+.last .last_text p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  padding: 0 0 4px 0;
+}
+.last .last_text .last_imgs {
+  gap: 8px;
+}
+.last .last_text .last_big_img {
+  max-width: 360px;
+  height: auto;
+  padding: 16px 0;
+}
+.last .last_text .last_big_img img {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
